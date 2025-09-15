@@ -1,0 +1,48 @@
+#task {}
+
+#task_info {
+	display: flex;
+}
+
+#progress_icon {
+	/* background-color: pink; */
+	flex: 1 1;
+}
+
+#printable_meta {
+	/* background-color: magenta; */
+	flex: 9 9;
+}
+
+#cover_container {
+	/* background-color: violet; */
+	flex: 6 6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#cover {
+	width: 75%;
+	border-radius: 10%;
+}
+
+#task_meta {
+	padding-left: 2rem;
+	display: flex;
+	align-items: flex-start;
+}
+
+#prio {
+	flex: 1 1;
+}
+
+#stat {
+	flex: 1 1;
+}
+
+#creation {
+	flex: 1 1;
+	text-align: right;
+	padding-right: 2rem;
+}

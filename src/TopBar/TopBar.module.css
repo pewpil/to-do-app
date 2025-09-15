@@ -1,0 +1,46 @@
+#top_bar {
+	border-bottom: 1px black solid;
+	display: flex;
+	grid-column: 1 / 10;
+	grid-row: 1 / 2;
+}
+
+#title_container {
+	flex: 3 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search {
+	flex: 7 7;
+	/* background-color: blueviolet; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#search_form {
+	flex: 1 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search_input,
+#submit_input {
+	display: inline;
+}
+
+#search_input {
+	width: 60%;
+}
+
+#notif_calendar {
+	flex: 1 1;
+}
+
+#date_time {
+	flex: 2 2;
+}
