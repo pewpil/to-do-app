@@ -16,15 +16,43 @@ function Dashboard() {
 			</div>
 			<div id={styles.board}>
 				<Section
-					title="To-Do"
-					action="Add task"
+					title={
+						<>
+							<span class="material-symbols-outlined">pending_actions</span>
+							To-do
+						</>
+					}
+					action={
+						<>
+							<span class="material-symbols-outlined">add</span>
+							Add task
+						</>
+					}
 					date="20 June"
 					day="Today"
 					content={els}
 				></Section>
 				<div id={styles.stat_and_completed}>
-					<Section title="Task Status" content={<Status></Status>}></Section>
-					<Section title="Completed Task" content={els}></Section>
+					<Section
+						title={
+							<>
+								<span class="material-symbols-outlined">inventory</span>
+								Task Status
+							</>
+						}
+						content={<Status></Status>}
+					></Section>
+					<Section
+						title={
+							<>
+								<span class="material-symbols-outlined">
+									assignment_turned_in
+								</span>
+								Completed Tasks
+							</>
+						}
+						content={els}
+					></Section>
 				</div>
 			</div>
 		</div>

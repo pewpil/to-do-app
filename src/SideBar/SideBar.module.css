@@ -51,3 +51,7 @@ choices {
 	padding: 1rem;
 	padding-left: 6rem;
 }
+
+.choice:hover {
+	cursor: pointer;
+}

@@ -18,3 +18,7 @@
 	background-color: white;
 	text-align: left;
 }
+
+#action:hover {
+	cursor: pointer;
+}

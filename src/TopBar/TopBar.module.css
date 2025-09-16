@@ -44,3 +44,11 @@
 #date_time {
 	flex: 2 2;
 }
+
+.material_symbols_outlined {
+	font-variation-settings:
+		"FILL" 0,
+		"wght" 400,
+		"GRAD" 0,
+		"opsz" 24;
+}

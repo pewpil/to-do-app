@@ -6,8 +6,9 @@
 	background-color: gray;
 	padding: 0.5rem;
 	/* Change units (vh) to % when placed in the actual  */
-	border-radius: 40%;
-	width: 70%;
+	border-radius: 1000%;
+	aspect-ratio: 1 / 1;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,8 +17,8 @@
 #interior {
 	background-color: white;
 	border-radius: 100%;
+	aspect-ratio: 1 / 1;
 	width: 90%;
-	height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -11,7 +11,6 @@ function Section(props) {
 					{props.title}
 				</h3>
 				<button type="button" id={styles.action}>
-					{/* plus icon here */}
 					<h3 className={universal.title3}>{props.action}</h3>
 				</button>
 			</div>

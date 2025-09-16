@@ -19,21 +19,22 @@ function TopBar(prop) {
 						className={`${universal.text_field} ${universal.body1}`}
 						id={styles.search_input}
 					/>
-					<input
-						type="submit"
-						value="Submit"
-						className={`${universal.submit_field} ${universal.title3}`}
-						id={styles.submit_input}
-					/>
+					<button>
+						<span class="material-symbols-outlined">search</span>
+					</button>
 				</form>
 			</div>
 			<div id={styles.notif_calendar}>
-				<button type="button">Notifcations</button>
-				<button type="button">Calendar</button>
+				<button type="button">
+					<span class="material-symbols-outlined">notifications</span>
+				</button>
+				<button type="button">
+					<span class="material-symbols-outlined">calendar_month</span>
+				</button>
 			</div>
 			<div id={styles.date_time}>
-				<h2 className={universal.title2}>Tuesday</h2>
-				<h3 className={universal.title3}>Septermber 3</h3>
+				<h2 className={universal.title2}>{prop.day}</h2>
+				<h3 className={universal.title3}>{prop.date}</h3>
 			</div>
 		</div>
 	);
