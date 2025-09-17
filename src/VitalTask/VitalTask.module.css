@@ -1,0 +1,5 @@
+#vital_task {
+	grid-column: 3 / 10;
+	grid-row: 3 / 10;
+	display: flex;
+}
