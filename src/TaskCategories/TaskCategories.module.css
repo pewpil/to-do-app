@@ -1,0 +1,9 @@
+#task_categories {
+	grid-column: 3 / 10;
+	grid-row: 3 / 10;
+}
+
+#table {
+	width: 100%;
+}
+

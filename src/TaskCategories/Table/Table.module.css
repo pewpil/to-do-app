@@ -1,0 +1,21 @@
+#table {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+.table_cell {
+	padding: 1rem;
+	margin: 0px;
+	border: 1px solid black;
+}
+
+.table_header {
+	border: 1px solid black;
+}
+
+.action_cell {
+	text-align: center;
+}
+
