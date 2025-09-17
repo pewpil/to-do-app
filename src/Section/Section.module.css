@@ -3,6 +3,7 @@
 	flex: 1 1;
 	margin: 1rem;
 	border: 1px black solid;
+	overflow: scroll;
 }
 
 #header {

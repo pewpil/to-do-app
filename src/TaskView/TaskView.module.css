@@ -1,0 +1,31 @@
+#task_view {
+	padding: 1.5rem;
+	height: 100%;
+}
+
+#header {
+	display: flex;
+}
+
+#cover {
+	aspect-ratio: 1 / 1;
+	width: 40%;
+}
+
+#task_meta {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* background-color: blue; */
+}
+
+#prio {
+
+}
+
+#stat {
+
+}
+
+#creation {
+}
