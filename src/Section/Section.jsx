@@ -1,7 +1,6 @@
 "use strict";
-import Task from "../Task/Task";
 import styles from "./Section.module.css";
-import universal from "../../Universal.module.css";
+import universal from "../Universal.module.css";
 
 function Section(props) {
 	return (

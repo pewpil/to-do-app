@@ -1,6 +1,6 @@
 "use strict";
-import Section from "./Section/Section.jsx";
-import Task from "./Task/Task.jsx";
+import Task from "../Task/Task";
+import Section from "../Section/Section";
 import Status from "./Status/Status.jsx";
 import styles from "./Dashboard.module.css";
 import universal from "../Universal.module.css";

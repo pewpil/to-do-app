@@ -1,6 +1,6 @@
 "use strict";
 import styles from "./Task.module.css";
-import universal from "../../Universal.module.css";
+import universal from "../Universal.module.css";
 
 function Task() {
 	return (

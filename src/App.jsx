@@ -10,7 +10,7 @@ function App() {
     <div id={styles.app}>
 	  <TopBar title="Dashboard" day="Tuesday" date="20 September"></TopBar>
 	  <SideBar></SideBar>
-	  <Dashboard></Dashboard>
+	  <MyTask></MyTask>
     </div>
   );
 }
