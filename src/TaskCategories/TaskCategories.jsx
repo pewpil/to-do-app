@@ -33,7 +33,7 @@ function TaskCategories() {
 									Priority
 								</button>
 							}
-					content={<Table></Table>}
+							content={<Table></Table>}
 						></Section>
 					</>
 				}
