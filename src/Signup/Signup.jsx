@@ -12,50 +12,84 @@ function Signup() {
         <div id={styles.signup_form_container}>
           <h2 className={universal.title2}>Sign up</h2>
           <form>
-            <label for="">
-              <p className={universal.body1}>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
                 <span className="material-symbols-outlined">person_edit</span>
-                Enter First name
               </p>
-              <input type="text" name="first_name" />
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="first_name"
+                placeholder="Enter First Name"
+              />
             </label>
-            <label for="">
-              <p className={universal.body1}>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
                 <span className="material-symbols-outlined">
                   account_circle
                 </span>
-                Enter Last name
               </p>
-              <input type="text" name="last_name" />
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="last_name"
+                placeholder="Enter Last Name"
+              />
+            </label>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
+                <span className="material-symbols-outlined">person</span>
+              </p>
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="username"
+                placeholder="Enter Username"
+              />
+            </label>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
+                <span className="material-symbols-outlined">lock</span>
+              </p>
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="password"
+                placeholder="Enter Password"
+              />
+            </label>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
+                <span className="material-symbols-outlined">lock</span>
+              </p>
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="confirm_password"
+                placeholder="Confirm Password"
+              />
+            </label>
+            <label className={styles.checkbox_field_label} for="">
+              <input
+                className={styles.checkbox_field}
+                type="checkbox"
+                name="terms_agreed"
+              />
+              <p
+                className={`${universal.body1} ${styles.checkbox_field_icon}`}
+                id={styles.terms_agreed}
+              >
+                I agree to all terms
+              </p>
             </label>
             <label for="">
-              <p className={universal.body1}>
-                <span className="material-symbols-outlined">person</span>Enter
-                Username
-              </p>
-              <input type="text" name="username" />
+              <button
+                type="button"
+                className={`${styles.button_field} ${universal.body1}`}
+              >
+                Register
+              </button>
             </label>
-            <label for="">
-              <p className={universal.body1}>
-                <span className="material-symbols-outlined">lock</span>Enter
-                Password
-              </p>
-              <input type="text" name="password" />
-            </label>
-            <label for="">
-              <p className={universal.body1}>
-                <span className="material-symbols-outlined">lock</span>Confirm
-                Password
-              </p>
-              <input type="text" name="confirm_password" />
-            </label>
-            <label for="">
-              <p className={universal.body1} id={styles.terms_agreed}>I agree to all terms</p>
-              <input type="checkbox" name="terms_agreed" />
-            </label>
-	  <label for="">
-	  <button type="button">Register</button>
-	  </label>
           </form>
         </div>
       </div>
