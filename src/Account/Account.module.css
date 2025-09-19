@@ -1,0 +1,43 @@
+#account {
+	grid-column: 3 / 10;
+	grid-row: 2 / 10;
+	padding: 1rem;
+	overflow: scroll;
+}
+
+#profile_pic {
+	aspect-ratio: 1 / 1;
+	width: 13rem;
+	border-radius: 7rem;
+}
+
+#profile {
+	display: flex;
+	padding: 1rem;
+}
+
+#profile_meta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+#form_container {
+	border: 1px black solid;
+	padding: 1rem;
+}
+
+#buttons_container {
+	display: block;
+}
+
+.button_field {
+	cursor: pointer;
+}
+
+.text_field {
+	border: 1px black solid;
+	width: 45%;
+	margin: 1rem 0 1rem 0;
+}
