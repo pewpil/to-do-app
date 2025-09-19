@@ -1,5 +1,30 @@
+#sign_up_page {
+	height: 100vh;
+	width: 100vw;
+	/* background-color: gold; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #sign_up {
-	width: 100%;
-	height: 100%;
-	background-color: gold;
+	/* background-color: mintcream; */
+	border: 1px solid black;;
+	aspect-ratio: 16 / 9;
+	height: 80%;
+	display: flex;
+}
+
+#corporate_art {
+	flex: 1 1;
+	/* background-color: pink; */
+}
+
+#signup_form_container {
+	flex: 1 1;
+	/* background-color: navy; */
+}
+
+#terms_agreed {
+	display: inline;
 }

@@ -13,8 +13,6 @@ import Signup from "./Signup/Signup";
 function App() {
   return (
     <div id={styles.app}>
-	  <TopBar title="Dashboard" day="Tuesday" date="20 June"></TopBar>
-	  <SideBar></SideBar>
 	  <Signup></Signup>
     </div>
   );
