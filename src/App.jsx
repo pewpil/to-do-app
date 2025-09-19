@@ -8,13 +8,14 @@ import VitalTask from "./VitalTask/VitalTask";
 import TaskCategories from "./TaskCategories/TaskCategories";
 import Login from "./Login/Login";
 import Account from "./Account/Account";
+import Signup from "./Signup/Signup";
 
 function App() {
   return (
     <div id={styles.app}>
 	  <TopBar title="Dashboard" day="Tuesday" date="20 June"></TopBar>
 	  <SideBar></SideBar>
-	  <Account></Account>
+	  <Signup></Signup>
     </div>
   );
 }
