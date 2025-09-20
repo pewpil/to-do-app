@@ -1,7 +1,7 @@
 #app {
 	display: grid;
 	height: 100vh;
-	grid-template-columns: repeat(9, 1fr);
-	grid-template-rows: repeat(9, 1fr);
+	grid-template-columns: repeat(19, 1fr);
+	grid-template-rows: repeat(19, 1fr);
 	/* background-color: yellowgreen; */
 }
