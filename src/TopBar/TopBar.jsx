@@ -39,7 +39,9 @@ function TopBar(prop) {
 				</button>
 			</div>
 			<div id={styles.date_time}>
-				<h2 className={universal.title2} id={styles.day}>{prop.day}</h2>
+				<h2 className={universal.title2} id={styles.day}>
+					{prop.day}
+				</h2>
 				<h3 className={universal.title3} id={styles.date}>
 					{prop.date}
 				</h3>

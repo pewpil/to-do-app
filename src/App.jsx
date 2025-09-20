@@ -11,13 +11,13 @@ import Account from "./Account/Account";
 import Signup from "./Signup/Signup";
 
 function App() {
-  return (
-    <div id={styles.app}>
-	  <TopBar title="Dashboard" day="Monday" date="06/20/2024"></TopBar>
-	  <SideBar></SideBar>
-	  <Dashboard></Dashboard>
-    </div>
-  );
+	return (
+		<div id={styles.app}>
+			<TopBar title="Dashboard" day="Monday" date="06/20/2024"></TopBar>
+			<SideBar></SideBar>
+		<Account></Account>
+		</div>
+	);
 }
 
 export default App;
