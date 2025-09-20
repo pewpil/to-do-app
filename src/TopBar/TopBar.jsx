@@ -15,26 +15,34 @@ function TopBar(prop) {
 					<input
 						type="text"
 						name="search"
-						placeholder="Search task"
+						placeholder="Search your task here..."
 						className={`${universal.text_field} ${universal.body1}`}
 						id={styles.search_input}
 					/>
-					<button>
+					<button type="button" className={universal.button_field}>
 						<span class="material-symbols-outlined">search</span>
 					</button>
 				</form>
 			</div>
 			<div id={styles.notif_calendar}>
-				<button type="button">
+				<button
+					type="button"
+					className={`${universal.button_field} ${styles.button}`}
+				>
 					<span class="material-symbols-outlined">notifications</span>
 				</button>
-				<button type="button">
+				<button
+					type="button"
+					className={`${universal.button_field} ${styles.button}`}
+				>
 					<span class="material-symbols-outlined">calendar_month</span>
 				</button>
 			</div>
 			<div id={styles.date_time}>
 				<h2 className={universal.title2}>{prop.day}</h2>
-				<h3 className={universal.title3}>{prop.date}</h3>
+				<h3 className={universal.title3} id={styles.date}>
+					{prop.date}
+				</h3>
 			</div>
 		</div>
 	);

@@ -28,6 +28,14 @@
 	border-radius: 1rem;
 }
 
+.button_field {
+	background-color: #ff6767;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	color: #fff;
+	cursor: pointer;
+}
+
 .submit_field {
 	border-radius: 1rem;
 }
