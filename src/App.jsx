@@ -13,7 +13,6 @@ import Signup from "./Signup/Signup";
 function App() {
   return (
     <div id={styles.app}>
-	  <Signup></Signup>
     </div>
   );
 }
