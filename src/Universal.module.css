@@ -46,3 +46,7 @@
 .submit_field {
 	border-radius: 1rem;
 }
+
+.img_placeholder {
+	background-color: gray;
+}

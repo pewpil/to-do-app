@@ -22,7 +22,7 @@ function TopBar(prop) {
           <button
             type="button"
             className={`${universal.button_field} ${styles.button}`}
-	  id={styles.search_button}
+            id={styles.search_button}
           >
             <span class="material-symbols-outlined">search</span>
           </button>
