@@ -3,5 +3,6 @@
 	height: 100vh;
 	grid-template-columns: repeat(19, 1fr);
 	grid-template-rows: repeat(19, 1fr);
+	background-color: #f5f8ff;
 	/* background-color: yellowgreen; */
 }

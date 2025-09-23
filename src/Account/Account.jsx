@@ -8,6 +8,7 @@ function Account() {
     <div id={styles.account}>
       <Section
         title="Account Information"
+        page_style="account_page"
         content={
           <div id={styles.update_info}>
             <div id={styles.profile}>
