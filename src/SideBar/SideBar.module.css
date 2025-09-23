@@ -4,6 +4,7 @@
 	flex-direction: column;
 	grid-column: 1 / 4;
 	grid-row: 3 / 20;
+	padding-top: 1rem;
 }
 
 #profile {
@@ -21,37 +22,46 @@
 	justify-content: flex-end;
 	align-items: center;
 	overflow: visible;
+	background-color: #ff6767;
+	border-top-right-radius: 1rem;
+}
+
+#choices {
+	/* background-color: magenta; */
+	flex: 9 9;
+	background-color: #ff6767;
+}
+
+#logout {
+	/* background-color: violet; */
+	background-color: #ff6767;
+	flex: 1 1;
 }
 
 #profile_pic {
 	aspect-ratio: 1 / 1;
-	width: 75%;
+	width: 55%;
 	border-radius: 50%;
 	margin: .5rem;
 }
 
 #name {
 	font-size: 1.5rem;
+	color: white;
 }
 
 #email {
 	font-size: 1rem;
+	color: white;
 }
 
-#choices {
-	/* background-color: magenta; */
-	flex: 9 9;
-}
 
-#logout {
-	/* background-color: violet; */
-	flex: 1 1;
-}
 
 .choice {
 	font-size: 1.5rem;
 	padding: 1rem;
 	padding-left: 2rem;
+	color: white;
 }
 
 .choice:hover {
