@@ -49,6 +49,7 @@
 	font-family: inter;
 }
 
-.field_label {
+#field_label {
 	font-size: 1.25rem;
+	font-weight: 600;
 }

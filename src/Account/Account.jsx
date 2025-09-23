@@ -76,10 +76,10 @@ function Account() {
                   />
                 </label>
                 <span id={styles.buttons_container}>
-                  <button className={styles.button_field}>
+                  <button className={`${universal.button_long} ${styles.button_field}`}>
                     <p className={universal.body2}>Update Info</p>
                   </button>
-                  <button className={styles.button_field}>
+                  <button className={`${universal.button_long} ${styles.button_field}`}>
                     <p className={universal.body2}>Change Password</p>
                   </button>
                 </span>

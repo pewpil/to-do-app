@@ -42,6 +42,17 @@
 	margin: 0.5rem;
 }
 
+.button_long {
+	background-color: #ff6767;
+	border-radius: 0.5rem;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.4);
+	margin: 0.5rem;
+	font-weight: 700;
+	padding: 1rem;
+}
+
 .submit_field {
 	border-radius: 1rem;
 }
