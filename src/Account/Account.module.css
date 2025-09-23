@@ -23,8 +23,9 @@
 }
 
 #form_container {
-	border: 1px black solid;
-	padding: 1rem;
+	border: 3px #ced1d8 solid;
+	border-radius: 2rem;
+	padding: 3rem;
 }
 
 #buttons_container {
@@ -39,9 +40,4 @@
 	border: 1px black solid;
 	width: 45%;
 	margin: 1rem 0 1rem 0;
-}
-
-
-#form_container {
-	padding: 2rem;
 }

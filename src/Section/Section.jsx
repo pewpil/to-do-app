@@ -1,6 +1,7 @@
 "use strict";
 import styles from "./Section.module.css";
 import universal from "../Universal.module.css";
+import "./Section.css";
 
 function Section(props) {
   return (
