@@ -8,24 +8,22 @@
 }
 
 #profile {
-	/* background-color: pink; */
+	background-color: pink;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	overflow: visible;
 	height: 10rem;
-	flex: 0 0;
+	flex: 4 4;
 	cursor: pointer;
 }
 
-#profile_pic, #name, #email {
-	position: relative;
-	top: -5rem;
-}
 #profile_pic {
-	height: 10rem;
-	width: 10rem;
-	border-radius: 5rem;
+	aspect-ratio: 1 / 1;
+	height: 85%;
+	background-color: gray;
+	border-radius: 50%;
+	margin: .5rem;
 }
 
 #name {
@@ -36,7 +34,7 @@
 	font-size: 1rem;
 }
 
-choices {
+#choices {
 	/* background-color: magenta; */
 	flex: 9 9;
 }
@@ -44,7 +42,6 @@ choices {
 #logout {
 	/* background-color: violet; */
 	flex: 1 1;
-	padding-top: 5rem;
 }
 
 .choice {
