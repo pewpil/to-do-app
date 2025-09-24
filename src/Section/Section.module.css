@@ -17,8 +17,9 @@
 
 #action {
 	flex: 1 1;
-	background-color: white;
+	background-color: #f5f8ff;
 	text-align: left;
+	z-index: -1;
 }
 
 #action:hover {
