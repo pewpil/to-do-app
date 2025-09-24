@@ -1,4 +1,6 @@
-#task {}
+#task {
+	border: 1px solid black;
+}
 
 #task_info {
 	display: flex;
