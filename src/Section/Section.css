@@ -4,3 +4,9 @@
 	padding: 3rem;
 	border-radius: 2rem;
 }
+
+#dashboard_todo {
+	border: 3px #ced1d8 solid;
+	padding: 2rem;
+	border-radius: 2rem;
+}

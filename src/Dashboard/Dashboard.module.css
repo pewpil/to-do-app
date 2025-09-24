@@ -2,16 +2,21 @@
 	grid-column: 4 / 20;
 	grid-row: 3 / 20;
 	padding: 3rem;
+	overflow: scroll;
 }
 
 #board {
-	border: 1px black solid;
+	border: 3px #ced1d8 solid;
 	display: flex;
-	padding: 1rem;
+	padding: 3rem;
+	border-radius: 2rem;
 }
 
 #stat_and_completed {
-	flex: 1 1;
 	display: flex;
 	flex-direction: column;
+}
+
+#welcome_and_colab {
+	padding-bottom: 2rem;
 }
