@@ -7,7 +7,7 @@ function Plot(props) {
 		<div id={styles.plot}>
 			<div id={styles.exterior}>
 				<div id={styles.interior}>
-					<h3 className={universals.title2}>{props.prop}%</h3>
+					<h3 className={universals.title2} id={styles.stat}>{props.prop}%</h3>
 				</div>
 			</div>
 			<h3 className={universals.title3} id={styles.title}>{props.title}</h3>

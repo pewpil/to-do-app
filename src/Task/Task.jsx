@@ -6,8 +6,10 @@ function Task() {
   return (
     <div id={styles.task}>
       <div id={styles.task_info}>
-        <div id={styles.progress_icon}>
-          <h1>h</h1>
+        <div id={styles.progress_icon_container}>
+          <h1>
+            <span className="material-symbols-outlined" id={styles.progress_icon}>circle</span>
+          </h1>
         </div>
         <div id={styles.printable_meta}>
           <h2 className={universal.title2}>Task title</h2>

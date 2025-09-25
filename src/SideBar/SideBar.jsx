@@ -22,36 +22,42 @@ function SideBar() {
         </div>
       </div>
       <div id={styles.choices}>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">dashboard</span>
-          Dashboard
-        </h3>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">priority_high</span>
-          Vital Task
-        </h3>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">
+        <div className={styles.choice_container}>
+          <span className="material-symbols-outlined fs3rem">dashboard</span>
+          <h3 className={`${universal.title3} ${styles.choice}`}>Dashboard</h3>
+        </div>
+        <div className={styles.choice_container}>
+          <span className="material-symbols-outlined fs3rem">
+            priority_high
+          </span>
+          <h3 className={`${universal.title3} ${styles.choice}`}>Vital Task</h3>
+        </div>
+        <div className={styles.choice_container}>
+          <span className="material-symbols-outlined fs3rem">
             assignment_turned_in
           </span>
-          My Task
-        </h3>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">list_alt</span>
-          Task Categories
-        </h3>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">settings</span>
-          Settings
-        </h3>
-        <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">help</span>
-          Help
-        </h3>
+          <h3 className={`${universal.title3} ${styles.choice}`}>My Task</h3>
+        </div>
+        <div className={styles.choice_container}>
+          <span className="material-symbols-outlined fs3rem">list_alt</span>
+          <h3 className={`${universal.title3} ${styles.choice}`}>
+            Task Categories
+          </h3>
+        </div>
+        <div className={styles.choice_container}>
+          <span className="material-icons fs3rem">settings</span>
+          <h3 className={`${universal.title3} ${styles.choice}`}>Settings</h3>
+        </div>
+        <div className={styles.choice_container}>
+          <span className="material-icons fs3rem">help</span>
+          <h3 className={`${universal.title3} ${styles.choice}`}>Help</h3>
+        </div>
       </div>
       <div id={styles.logout}>
+        <div className={styles.choice_container}>
+        </div>
         <h3 className={`${universal.title3} ${styles.choice}`}>
-          <span className="material-symbols-outlined">logout</span>
+          <span className="material-symbols-outlined fs3rem">logout</span>
           Logout
         </h3>
       </div>

@@ -35,6 +35,7 @@ function Dashboard() {
         ></Section>
         <div id={styles.stat_and_completed}>
           <Section
+            page_style="dashboard_task_status"
             title={
               <>
                 <span class="material-symbols-outlined">inventory</span>
@@ -44,6 +45,7 @@ function Dashboard() {
             content={<Status></Status>}
           ></Section>
           <Section
+            page_style="dashboard_completed_tasks"
             title={
               <>
                 <span class="material-symbols-outlined">

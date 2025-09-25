@@ -1,14 +1,21 @@
 #task {
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
+	border-radius: 2rem;
+	margin: 1rem 0 1rem 0;
+	padding: 1rem;
 }
 
 #task_info {
 	display: flex;
 }
 
-#progress_icon {
+#progress_icon_container {
 	/* background-color: pink; */
 	flex: 1 1;
+}
+
+#progress_icon {
+	font-weight: 800;
 }
 
 #printable_meta {

@@ -1,15 +1,13 @@
 #dashboard {
 	grid-column: 4 / 20;
 	grid-row: 3 / 20;
-	padding: 3rem;
+	padding: 5rem;
 	overflow: scroll;
 }
 
 #board {
 	border: 3px #ced1d8 solid;
 	display: flex;
-	padding: 3rem;
-	border-radius: 2rem;
 }
 
 #stat_and_completed {
