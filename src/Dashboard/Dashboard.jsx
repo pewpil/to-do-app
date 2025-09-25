@@ -19,7 +19,7 @@ function Dashboard() {
           page_style="dashboard_todo"
           title={
             <div id={styles.todo_title_container}>
-              <span class="material-symbols-outlined fs3rem">
+              <span className={`${"material-symbols-outlined"} ${styles.title_icon}`}>
                 pending_actions
               </span>
               <h3
