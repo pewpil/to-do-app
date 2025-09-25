@@ -18,10 +18,16 @@ function Dashboard() {
         <Section
           page_style="dashboard_todo"
           title={
-            <>
-              <span class="material-symbols-outlined">pending_actions</span>
-              To-do
-            </>
+            <div id={styles.todo_title_container}>
+              <span class="material-symbols-outlined fs3rem">
+                pending_actions
+              </span>
+              <h3
+                className={`${universal.title3} ${styles.dashboard_section_title}`}
+              >
+                To-Do
+              </h3>
+            </div>
           }
           action={
             <>

@@ -8,7 +8,12 @@ function Task() {
       <div id={styles.task_info}>
         <div id={styles.progress_icon_container}>
           <h1>
-            <span className="material-symbols-outlined" id={styles.progress_icon}>circle</span>
+            <span
+              className="material-symbols-outlined"
+              id={styles.progress_icon}
+            >
+              circle
+            </span>
           </h1>
         </div>
         <div id={styles.printable_meta}>
