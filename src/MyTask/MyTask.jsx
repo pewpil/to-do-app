@@ -8,8 +8,8 @@ function MyTask() {
 	const tasks = [<Task></Task>, <Task></Task>];
 	return (
 		<div id={styles.my_task}>
-			<Section title="My Tasks" content={tasks}></Section>
-			<Section content={<TaskView></TaskView>}></Section>
+			<Section page_style="my_task" title="My Tasks" content={tasks}></Section>
+			<Section page_style="task_view" content={<TaskView></TaskView>}></Section>
 		</div>
 	);
 }

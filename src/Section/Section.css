@@ -28,3 +28,18 @@
 	margin: 0.75rem 3rem 3rem 0.75rem;
 	background-color: #f5f8ff;
 }
+
+#my_task {
+	border: 3px #ced1d8 solid;
+	padding: 3rem;
+	margin-right: 1rem;
+	border-radius: 2rem;
+	flex: 4 4;
+}
+#task_view {
+	border: 3px #ced1d8 solid;
+	padding: 3rem;
+	margin-left: 1rem;
+	border-radius: 2rem;
+	flex: 6 6;
+}
