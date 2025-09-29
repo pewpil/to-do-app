@@ -29,7 +29,7 @@
 	background-color: #f5f8ff;
 }
 
-#my_task {
+#my_task, #vital_tasks{
 	border: 3px #ced1d8 solid;
 	padding: 3rem;
 	margin-right: 1rem;

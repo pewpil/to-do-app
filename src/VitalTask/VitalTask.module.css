@@ -1,5 +1,10 @@
 #vital_task {
 	grid-column: 4 / 20;
 	grid-row: 3 / 20;
+	overflow: scroll;
+}
+
+#page_container {
+	padding: 3rem;
 	display: flex;
 }

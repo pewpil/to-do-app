@@ -8,8 +8,17 @@ function VitalTask() {
 	const tasks = [...Array(4).keys()].map(() => <Task></Task>);
 	return (
 		<div id={styles.vital_task}>
-			<Section title="Vital Tasks" content={tasks}></Section>
-			<Section content={<TaskView></TaskView>}></Section>
+			<div id={styles.page_container}>
+				<Section
+					page_style="vital_tasks"
+					title="Vital Tasks"
+					content={tasks}
+				></Section>
+				<Section
+					page_style="task_view"
+					content={<TaskView></TaskView>}
+				></Section>
+			</div>
 		</div>
 	);
 }
