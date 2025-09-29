@@ -6,7 +6,7 @@ import styles from "./Dashboard.module.css";
 import universal from "../Universal.module.css";
 
 function Dashboard() {
-  const els = [<Task></Task>, <Task></Task>];
+	const els = [...Array(4).keys()].map(() => <Task></Task>);
   return (
     <div id={styles.dashboard}>
       <div id={styles.welcome_and_colab}>
