@@ -5,7 +5,7 @@ import Task from "../Task/Task";
 import TaskView from "../TaskView/TaskView";
 
 function VitalTask() {
-	const tasks = [<Task></Task>, <Task></Task>];
+	const tasks = [...Array(4).keys()].map(() => <Task></Task>);
 	return (
 		<div id={styles.vital_task}>
 			<Section title="Vital Tasks" content={tasks}></Section>
