@@ -1,7 +1,7 @@
 #task_categories {
 	grid-column: 4 / 20;
 	grid-row: 3 / 20;
-	padding: 5rem;
+	padding: 2rem 5rem 2rem 5rem;
 	overflow: scroll;
 }
 
@@ -9,3 +9,6 @@
 	width: 100%;
 }
 
+#hrule {
+	border: 1px #ced1d8 solid;
+}

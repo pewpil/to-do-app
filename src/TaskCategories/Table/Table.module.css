@@ -8,11 +8,11 @@
 .table_cell {
 	padding: 1rem;
 	margin: 0px;
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
 }
 
 .table_header {
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
 }
 
 .action_cell {
