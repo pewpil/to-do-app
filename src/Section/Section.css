@@ -9,24 +9,24 @@
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 	border-radius: 2rem;
 	margin: 3rem 0.75rem 3rem 3rem;
-	padding: 2rem;
 	background-color: #f5f8ff;
+	padding-bottom: 2rem;
 }
 
 #dashboard_task_status {
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-	padding: 2rem;
 	border-radius: 2rem;
 	margin: 3rem 3rem 0.75rem 0.75rem;
 	background-color: #f5f8ff;
+	padding-bottom: 2rem;
 }
 
 #dashboard_completed_tasks {
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-	padding: 2rem;
 	border-radius: 2rem;
 	margin: 0.75rem 3rem 3rem 0.75rem;
 	background-color: #f5f8ff;
+	padding-bottom: 2rem;
 }
 
 #my_task, #vital_tasks{
