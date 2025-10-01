@@ -5,17 +5,17 @@ import universal from "../Universal.module.css";
 import "./Section.css";
 
 function Section(props) {
-	const content = [];
+	const contents = Array(props.subsections.length);
 	props.subsections.forEach((subsection, i) => {
 		if (i < props.subsections.length - 1) {
-			content.push(
+			contents.push(
 				<>
 					{subsection}
 					<hr id={styles.hrule} />
 				</>,
 			);
 		} else {
-			content.push(<>{subsection}</>);
+			contents.push(<>{subsection}</>);
 		}
 	});
 	return (
@@ -28,15 +28,18 @@ function Section(props) {
 					<h3 className={universal.title3}>{props.action}</h3>
 				</button>
 			</div>
-		{
-			props.date ? 
-			<div id={styles.date}>
-				<h3 className={universal.title3}>
-					{props.date} <span id={styles.today}>{props.day}</span>
-				</h3>
-			</div> : <></>
-		}
-			<div id={styles.contents}>{content}</div>
+			{props.date ? (
+				<div id={styles.date}>
+					<h3 className={universal.title3}>
+						{props.date} <span id={styles.today}>{props.day}</span>
+					</h3>
+				</div>
+			) : (
+				<></>
+			)}
+			<div id={styles.contents}>
+		{contents}
+			</div>
 		</div>
 	);
 }

@@ -12,11 +12,11 @@ function MyTask() {
 				<Section
 					page_style="my_task"
 					title="My Tasks"
-					content={tasks}
+					subsections={[[tasks]]}
 				></Section>
 				<Section
 					page_style="task_view"
-					content={<TaskView></TaskView>}
+					subsections={[[<TaskView></TaskView>]]}
 				></Section>
 			</div>
 		</div>

@@ -12,11 +12,11 @@ function VitalTask() {
 				<Section
 					page_style="vital_tasks"
 					title="Vital Tasks"
-					content={tasks}
+					subsections={[[tasks]]}
 				></Section>
 				<Section
 					page_style="task_view"
-					content={<TaskView></TaskView>}
+					subsections={[[<TaskView></TaskView>]]}
 				></Section>
 			</div>
 		</div>

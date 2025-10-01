@@ -31,15 +31,14 @@
 
 #my_task, #vital_tasks{
 	border: 3px #ced1d8 solid;
-	padding: 3rem;
 	margin-right: 1rem;
 	border-radius: 2rem;
 	flex: 4 4;
+	padding-bottom: 2rem;
 }
 
 #task_view {
 	border: 3px #ced1d8 solid;
-	padding: 3rem;
 	margin-left: 1rem;
 	border-radius: 2rem;
 	flex: 6 6;
