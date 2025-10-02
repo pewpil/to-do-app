@@ -18,9 +18,15 @@
 	display: flex;
 }
 
-#corporate_art {
+#corporate_art_container {
 	flex: 1 1;
-	/* background-color: pink; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#corporate_art {
+	width: 90%;
 }
 
 #signup_form_container {

@@ -6,8 +6,8 @@ function Signup() {
   return (
     <div id={styles.sign_up_page}>
       <div id={styles.sign_up}>
-        <div id={styles.corporate_art}>
-          {/* fake ass signup corporate art go here */}
+        <div id={styles.corporate_art_container}>
+          <img src="../../public/images/signup.webp" id={styles.corporate_art} />
         </div>
         <div id={styles.signup_form_container}>
           <h2 className={universal.title2}>Sign Up</h2>
