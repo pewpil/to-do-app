@@ -1,7 +1,9 @@
+#table_container {
+	margin: 1rem 2rem 2rem 2rem;
+}
+
 #table {
 	width: 100%;
-	padding: 0px;
-	margin: 0px;
 	border-collapse: collapse;
 }
 

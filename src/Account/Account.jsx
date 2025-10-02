@@ -9,7 +9,7 @@ function Account() {
       <Section
         title="Account Information"
         page_style="account_page"
-        content={
+        subsections={[
           <div id={styles.update_info}>
             <div id={styles.profile}>
               <img
@@ -76,17 +76,21 @@ function Account() {
                   />
                 </label>
                 <span id={styles.buttons_container}>
-                  <button className={`${universal.button_long} ${styles.button_field}`}>
+                  <button
+                    className={`${universal.button_long} ${styles.button_field}`}
+                  >
                     <p className={universal.body2}>Update Info</p>
                   </button>
-                  <button className={`${universal.button_long} ${styles.button_field}`}>
+                  <button
+                    className={`${universal.button_long} ${styles.button_field}`}
+                  >
                     <p className={universal.body2}>Change Password</p>
                   </button>
                 </span>
               </form>
             </div>
-          </div>
-        }
+          </div>,
+        ]}
       ></Section>
     </div>
   );
