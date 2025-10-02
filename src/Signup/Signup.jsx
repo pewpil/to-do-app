@@ -10,7 +10,7 @@ function Signup() {
           {/* fake ass signup corporate art go here */}
         </div>
         <div id={styles.signup_form_container}>
-          <h2 className={universal.title2}>Sign up</h2>
+          <h2 className={universal.title2}>Sign Up</h2>
           <form>
             <label className={styles.text_field_label} for="">
               <p className={`${universal.body1} ${styles.text_field_icon}`}>
@@ -45,6 +45,17 @@ function Signup() {
                 type="text"
                 name="username"
                 placeholder="Enter Username"
+              />
+            </label>
+            <label className={styles.text_field_label} for="">
+              <p className={`${universal.body1} ${styles.text_field_icon}`}>
+                <span className="material-symbols-outlined">mail</span>
+              </p>
+              <input
+                className={`${universal.body1} ${styles.text_field}`}
+                type="text"
+                name="username"
+                placeholder="Enter Email Address"
               />
             </label>
             <label className={styles.text_field_label} for="">
@@ -85,7 +96,7 @@ function Signup() {
             <label for="">
               <button
                 type="button"
-                className={`${styles.button_field} ${universal.body1}`}
+                className={`${styles.button_field} ${universal.body1} ${universal.button_long}`}
               >
                 Register
               </button>

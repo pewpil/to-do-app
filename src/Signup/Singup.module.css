@@ -1,6 +1,7 @@
 #sign_up_page {
 	height: 100vh;
 	width: 100vw;
+	background-color: #ff6767;
 	/* background-color: gold; */
 	display: flex;
 	align-items: center;
@@ -8,9 +9,11 @@
 }
 
 #sign_up {
-	/* background-color: mintcream; */
-	border: 1px solid black;;
+	background-color: #ffffff;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
+	border-radius: 1rem;
 	aspect-ratio: 16 / 9;
+	padding: 2rem;
 	height: 80%;
 	display: flex;
 }
@@ -46,21 +49,28 @@
 
 .button_field {
 	display: block;
-	padding: 1rem;
+	padding: 1rem 2rem 1rem 2rem;
 	margin: 1rem 0rem 1rem 0;
-	border: 1px black solid;
+	font-weight: 500;
+	font-size: 1rem;
 }
 
 .text_field_label {
 	display: block;
 	padding: 1rem;
 	margin: 1rem 10rem 1rem 0;
-	border: 1px black solid;
+	border: 1px #5d5d5d solid;
+	border-radius: 0.75rem;
+	width: 85%;
+}
+
+.text_field_icon {
+	padding-right: 1rem;
 }
 
 .checkbox_field {
 	aspect-ratio: 1 / 1;
-	margin: 1rem;
+	margin: 1rem 1rem 1rem 0;
 	width: 1.5rem;
 }
 
