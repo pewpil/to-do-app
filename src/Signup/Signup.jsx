@@ -64,7 +64,7 @@ function Signup() {
               </p>
               <input
                 className={`${universal.body1} ${styles.text_field}`}
-                type="text"
+                type="password"
                 name="password"
                 placeholder="Enter Password"
               />
@@ -75,7 +75,7 @@ function Signup() {
               </p>
               <input
                 className={`${universal.body1} ${styles.text_field}`}
-                type="text"
+                type="password"
                 name="confirm_password"
                 placeholder="Confirm Password"
               />
