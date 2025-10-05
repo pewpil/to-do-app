@@ -7,7 +7,7 @@ function TaskView() {
 		<div id={styles.task_view}>
 			<div id={styles.header}>
 				<img
-					src="https://videos.openai.com/vg-assets/assets%2Ftask_01k53cqdm9e9n874v7pq2nrcxw%2F1757829403_img_0.webp?st=2025-09-14T04%3A26%3A29Z&se=2025-09-20T05%3A26%3A29Z&sks=b&skt=2025-09-14T04%3A26%3A29Z&ske=2025-09-20T05%3A26%3A29Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=8ffff87a-01f1-47c9-9090-32999d4d6380&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=Ilbrexohuut%2BEYSxFperMpWDHPNVbbU9OiQH%2FKh%2F1Rc%3D&az=oaivgprodscus"
+		src="images/task_img.webp"
 					alt="task img"
 					id={styles.cover}
 					className={universal.img_placeholder}

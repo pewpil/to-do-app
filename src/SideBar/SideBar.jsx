@@ -8,7 +8,7 @@ function SideBar() {
       <div id={styles.profile}>
         <div id={styles.profile_container}>
           <img
-	  src="../../public/images/pfp_girl.webp"
+            src="images/pfp_girl.webp"
             alt="pfp girl"
             id={styles.profile_pic}
             className={universal.img_placeholder}

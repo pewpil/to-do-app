@@ -25,7 +25,7 @@ function Task() {
         </div>
         <div id={styles.cover_container}>
           <img
-            src="../../public/images/task_img.webp"
+            src="images/task_img.webp"
             alt="task img"
             id={styles.cover}
             className={universal.img_placeholder}

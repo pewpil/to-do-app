@@ -13,7 +13,9 @@ import Signup from "./Signup/Signup";
 function App() {
   return (
     <div id={styles.app}>
-	  <Signup></Signup>
+	  <TopBar></TopBar>
+	  <SideBar></SideBar>
+	  <MyTask></MyTask>
     </div>
   );
 }
