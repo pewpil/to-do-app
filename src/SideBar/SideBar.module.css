@@ -4,26 +4,24 @@
 	flex-direction: column;
 	grid-column: 1 / 4;
 	grid-row: 3 / 20;
-	padding-top: 1rem;
+	flex: 3 3;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
 }
 
-#profile {
-	flex: 4 4;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-}
+/* #profile { */
+/* 	flex: 4 4; */
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	justify-content: flex-end; */
+/* } */
 
 #profile_container {
-	height: 50%;
 	width: 100%;
+	background-color: #ff6767;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
-	overflow: visible;
-	background-color: #ff6767;
-	border-top-right-radius: 1rem;
 }
 
 #choices {
@@ -43,7 +41,8 @@
 	aspect-ratio: 1 / 1;
 	width: 45%;
 	border-radius: 50%;
-	margin: .5rem;
+	margin: 0.5rem;
+	border: 0.125rem #fff solid;
 }
 
 #name {
@@ -77,10 +76,9 @@
 
 .choice_container:hover {
 	cursor: pointer;
-	background-color: #fff;
-	color: #ff6767;
+	background-color: #ff9090;
 }
- 
+
 .icon {
 	font-size: 2rem;
 }
