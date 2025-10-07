@@ -1,5 +1,6 @@
 "use strict";
 import styles from "./Table.module.css";
+import universal from "../../Universal.module.css";
 
 function Table() {
   return (
@@ -14,12 +15,12 @@ function Table() {
           <td className={styles.table_cell}>1</td>
           <td className={styles.table_cell}>Completed</td>
           <td className={`${styles.table_cell} ${styles.action_cell}`}>
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">edit</span>
               Edit
             </button>
 
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">delete</span>
               Delete
             </button>
@@ -29,12 +30,12 @@ function Table() {
           <td className={styles.table_cell}>2</td>
           <td className={styles.table_cell}>Pending</td>
           <td className={`${styles.table_cell} ${styles.action_cell}`}>
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">edit</span>
               Edit
             </button>
 
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">delete</span>
               Delete
             </button>
@@ -44,12 +45,12 @@ function Table() {
           <td className={styles.table_cell}>3</td>
           <td className={styles.table_cell}>Not Started</td>
           <td className={`${styles.table_cell} ${styles.action_cell}`}>
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">edit</span>
               Edit
             </button>
 
-            <button>
+            <button className={universal.button_long}>
               <span className="material-symbols-outlined">delete</span>
               Delete
             </button>
