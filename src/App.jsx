@@ -14,9 +14,9 @@ import Signup from "./Signup/Signup";
 function App() {
   return (
     <div id={styles.app}>
-	  <TopBar></TopBar>
+	  <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
 	  <SideBar></SideBar>
-	  <MyTask></MyTask>
+	  <TaskCategories></TaskCategories>
     </div>
   );
 }
