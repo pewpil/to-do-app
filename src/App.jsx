@@ -16,7 +16,7 @@ function App() {
     <div id={styles.app}>
 	  <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
 	  <SideBar></SideBar>
-	  <TaskCategories></TaskCategories>
+	  <Dashboard></Dashboard>
     </div>
   );
 }
