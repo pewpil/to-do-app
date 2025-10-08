@@ -18,6 +18,22 @@
 }
 
 .action_cell {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
+.button_text {
+	padding: 0 10% 0 5%;
+	font-size: 1rem;
+}
+
+.button_icon {
+	padding: 0 5% 0 10%;
+}
+
+.action_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 3rem 0.5rem 3rem;
+}
