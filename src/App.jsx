@@ -19,8 +19,15 @@ function App() {
       <BrowserRouter>
         <SideBar></SideBar>
         <Routes>
-	  <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
-	  </Routes>
+          <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+          <Route path="/vital-task" element={<VitalTask></VitalTask>}></Route>
+          <Route path="/my-task" element={<MyTask></MyTask>}></Route>
+          <Route
+            path="/task-categories"
+            element={<TaskCategories></TaskCategories>}
+          ></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
+        </Routes>
       </BrowserRouter>
     </div>
   );

@@ -37,26 +37,34 @@ function SideBar() {
             </h3>
           </div>
         </Link>
-        <div className={styles.choice_container}>
-          <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
-            priority_high
-          </span>
-          <h3 className={`${universal.title3} ${styles.choice}`}>Vital Task</h3>
-        </div>
-        <div className={styles.choice_container}>
-          <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
-            assignment_turned_in
-          </span>
-          <h3 className={`${universal.title3} ${styles.choice}`}>My Task</h3>
-        </div>
-        <div className={styles.choice_container}>
-          <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
-            list_alt
-          </span>
-          <h3 className={`${universal.title3} ${styles.choice}`}>
-            Task Categories
-          </h3>
-        </div>
+        <Link to="/vital-task">
+          <div className={styles.choice_container}>
+            <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
+              priority_high
+            </span>
+            <h3 className={`${universal.title3} ${styles.choice}`}>
+              Vital Task
+            </h3>
+          </div>
+        </Link>
+        <Link to="/my-task">
+          <div className={styles.choice_container}>
+            <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
+              assignment_turned_in
+            </span>
+            <h3 className={`${universal.title3} ${styles.choice}`}>My Task</h3>
+          </div>
+        </Link>
+        <Link to="/task-categories">
+          <div className={styles.choice_container}>
+            <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
+              list_alt
+            </span>
+            <h3 className={`${universal.title3} ${styles.choice}`}>
+              Task Categories
+            </h3>
+          </div>
+        </Link>
         <div className={styles.choice_container}>
           <span className={`${"material-icons"} ${styles.icon}`}>settings</span>
           <h3 className={`${universal.title3} ${styles.choice}`}>Settings</h3>
@@ -66,14 +74,16 @@ function SideBar() {
           <h3 className={`${universal.title3} ${styles.choice}`}>Help</h3>
         </div>
       </div>
-      <div id={styles.logout}>
-        <div className={styles.choice_container}>
-          <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
-            logout
-          </span>
-          <h3 className={`${universal.title3} ${styles.choice}`}>Logout</h3>
+      <Link to="/login">
+        <div id={styles.logout}>
+          <div className={styles.choice_container}>
+            <span className={`${"material-symbols-outlined"} ${styles.icon}`}>
+              logout
+            </span>
+            <h3 className={`${universal.title3} ${styles.choice}`}>Logout</h3>
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }
