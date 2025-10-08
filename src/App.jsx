@@ -1,4 +1,5 @@
 "use strict";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 import TopBar from "./TopBar/TopBar";
 import SideBar from "./SideBar/SideBar";
@@ -14,9 +15,13 @@ import Signup from "./Signup/Signup";
 function App() {
   return (
     <div id={styles.app}>
-	  <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
-	  <SideBar></SideBar>
-	  <Dashboard></Dashboard>
+      <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
+      <BrowserRouter>
+        <SideBar></SideBar>
+        <Routes>
+	  <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+	  </Routes>
+      </BrowserRouter>
     </div>
   );
 }
