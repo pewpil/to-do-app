@@ -11,7 +11,6 @@ import Login from "./Login/Login";
 import Account from "./Account/Account";
 import Signup from "./Signup/Signup";
 
-// hii
 function App() {
   return (
     <div id={styles.app}>
