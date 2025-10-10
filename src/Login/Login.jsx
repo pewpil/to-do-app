@@ -99,7 +99,9 @@ function Login() {
 						Dont't have an account? <a href="">Create one!</a>
 					</p>
 				</div>
-				<div id={styles.right}>{/* fake ass corporate image here */}</div>
+				<div id={styles.right}>
+					<img src="/images/login.webp" id={styles.image} />
+				</div>
 			</div>
 		</div>
 	);
