@@ -8,31 +8,41 @@ function Login() {
 			<div id={styles.login_form_container}>
 				<div id={styles.left}>
 					<h1 className={universals.title1} id={styles.form_title}>
-						Sing In
+						Sign In
 					</h1>
 					<form id={styles.login_form}>
-						<input
-							className={styles.user_input}
-							type="text"
-							name="username"
-							placeholder="Enter username"
-						/>
-						<input
-							className={styles.user_input}
-							type="password"
-							name="password"
-							placeholder="Enter password"
-						/>
+						<label className={styles.input_text_field}>
+							<p className={`${universals.body1} ${styles.text_field_icon}`}>
+								<span className="material-symbols-outlined">person_edit</span>
+							</p>
+							<input
+								className={styles.user_input}
+								type="text"
+								name="username"
+								placeholder="Enter username"
+							/>
+						</label>
+						<label className={styles.input_text_field}>
+							<p className={`${universals.body1} ${styles.text_field_icon}`}>
+								<span className="material-symbols-outlined">lock</span>
+							</p>
+							<input
+								className={styles.user_input}
+								type="password"
+								name="password"
+								placeholder="Enter password"
+							/>
+						</label>
 						<input type="checkbox" name="rememberme" />
 						<p className={`${universals.body2} ${styles.p_inline}`}>
 							Remember Me
 						</p>
 						<button
-							className={styles.user_input}
+							className={universals.button_long}
 							id={styles.login_button}
 							type="submit"
 						>
-							Login
+							<p>Login</p>
 						</button>
 					</form>
 					<div id={styles.media_container}>
