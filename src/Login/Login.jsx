@@ -33,10 +33,16 @@ function Login() {
 								placeholder="Enter password"
 							/>
 						</label>
-						<input type="checkbox" name="rememberme" />
-						<p className={`${universals.body2} ${styles.p_inline}`}>
-							Remember Me
-						</p>
+						<label className={styles.checkbox_field}>
+							<input
+								type="checkbox"
+								name="rememberme"
+								className={styles.checkbox}
+							/>
+							<p className={`${universals.body2} ${styles.p_inline}`}>
+								Remember Me
+							</p>
+						</label>
 						<button
 							className={universals.button_long}
 							id={styles.login_button}
