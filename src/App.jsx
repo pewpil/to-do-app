@@ -10,6 +10,7 @@ import TaskCategories from "./TaskCategories/TaskCategories";
 import Login from "./Login/Login";
 import Account from "./Account/Account";
 import Signup from "./Signup/Signup";
+import Notification from "./Notification/Notification";
 
 // function App() {
 // 	return (
@@ -18,25 +19,26 @@ import Signup from "./Signup/Signup";
 // }
 
 function App() {
-	return (
-		<div id={styles.app}>
-			<TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
-			<BrowserRouter>
-				<SideBar></SideBar>
-				<Routes>
-					<Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
-					<Route path="/vital-task" element={<VitalTask></VitalTask>}></Route>
-					<Route path="/my-task" element={<MyTask></MyTask>}></Route>
-					<Route
-						path="/task-categories"
-						element={<TaskCategories></TaskCategories>}
-					></Route>
-					<Route path="/login" element={<Login></Login>}></Route>
-					<Route path="/account" element={<Account></Account>}></Route>
-				</Routes>
-			</BrowserRouter>
-		</div>
-	);
+  return (
+    <div id={styles.app}>
+      <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
+      <Notification></Notification>
+      <BrowserRouter>
+        <SideBar></SideBar>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+          <Route path="/vital-task" element={<VitalTask></VitalTask>}></Route>
+          <Route path="/my-task" element={<MyTask></MyTask>}></Route>
+          <Route
+            path="/task-categories"
+            element={<TaskCategories></TaskCategories>}
+          ></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
+          <Route path="/account" element={<Account></Account>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;

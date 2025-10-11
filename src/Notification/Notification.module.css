@@ -1,0 +1,7 @@
+#notification {
+	border: 1px black solid;
+	grid-column: 8 / 15;
+	grid-row: 5 / 9;
+	background-color: green;
+	z-index: 999;
+}
