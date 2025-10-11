@@ -1,5 +1,6 @@
 #notification {
 	display: flex;
+	margin-bottom: 1rem;
 }
 
 #notification:hover {

@@ -4,6 +4,9 @@ import universal from "../Universal.module.css";
 import Notification from "./Notification/Notification";
 
 function Notifications() {
+  const notifications = [...Array(8).keys()].map(() => (
+    <Notification></Notification>
+  ));
   return (
     <div id={styles.notifications}>
       <div id={styles.header}>
@@ -23,8 +26,8 @@ function Notifications() {
           {/* </div> */}
         </div>
       </div>
-      <div>
-        <Notification></Notification>
+      <div id={styles.body}>
+        <div id={styles.notifications_container}>{notifications}</div>
       </div>
     </div>
   );
