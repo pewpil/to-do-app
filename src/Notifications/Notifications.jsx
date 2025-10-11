@@ -24,6 +24,7 @@ function Notifications() {
         </div>
       </div>
       <div>
+        <Notification></Notification>
       </div>
     </div>
   );
