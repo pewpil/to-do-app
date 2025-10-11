@@ -10,7 +10,7 @@ import TaskCategories from "./TaskCategories/TaskCategories";
 import Login from "./Login/Login";
 import Account from "./Account/Account";
 import Signup from "./Signup/Signup";
-import Notification from "./Notification/Notification";
+import Notifications from "./Notifications/Notifications";
 
 // function App() {
 // 	return (
@@ -22,7 +22,7 @@ function App() {
   return (
     <div id={styles.app}>
       <TopBar title="Dashboard" date="10/12/2002" day="Monday"></TopBar>
-      <Notification></Notification>
+	  <Notifications></Notifications>
       <BrowserRouter>
         <SideBar></SideBar>
         <Routes>
