@@ -13,7 +13,7 @@ import Signup from "./Signup/Signup";
 
 // function App() {
 // 	return (
-// 		<Signup></Signup>
+//
 // 	);
 // }
 
