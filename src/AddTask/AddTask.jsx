@@ -11,7 +11,7 @@ function AddTask() {
             Add New Task
           </h2>
           <h3 className={universal.title3} id={styles.go_back}>
-            Go Back
+            <u>Go Back</u>
           </h3>
         </div>
         <div id={styles.body}>

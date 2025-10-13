@@ -24,6 +24,13 @@
 
 #title {
 	flex: 1 1;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+#go_back {
+	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 #go_back:hover {
@@ -31,25 +38,32 @@
 }
 
 #body {
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
 	margin: 2rem 0 0 0;
-	padding: 1rem;
+	padding: 2rem;
 	flex: 1 1;
 }
 
 .form_label {
 	font-size: 1.5rem;
-	padding: 0.5rem 0 0.5rem 0;
+	padding: 1rem 0 0.5rem 0;
+	font-weight: 400;
+}
+
+#task_title {
+	padding-top: 0;
 }
 
 .short_text_field {
 	width: 50%;
-	font-size: 1.5rem;
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: 3px #ced1d8 solid;
 }
 
 .checkbox_field {
 	display: inline;
-	margin: .5rem 1rem .5rem .5rem;
+	margin: 0.5rem 1rem 0.5rem 0.5rem;
 }
 
 .priority_label {
@@ -60,7 +74,7 @@
 #date_field {
 	width: 50%;
 	font-size: 1.5rem;
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
 }
 
 #lower_body {
@@ -78,6 +92,7 @@
 .long_text_field {
 	flex: 1 1;
 	padding: 1rem;
+	border: 3px #ced1d8 solid;
 }
 
 #image {
@@ -94,7 +109,7 @@
 }
 
 #image_upload {
-	border: 1px solid black;
+	border: 3px #ced1d8 solid;
 	flex: 1 1;
 	border-radius: 1rem;
 	display: flex;
