@@ -78,15 +78,11 @@ function AddTask() {
                 >
                   Task Description
                 </h3>
-	  <textarea 
-
-
+                <textarea
                   name="title"
                   className={`${universal.text_field} ${styles.long_text_field}`}
                   placeholder="Start writing here"
-	  >
-
-	  </textarea>
+                ></textarea>
               </label>
               <label for="" a id={styles.image}>
                 <h3
@@ -95,11 +91,16 @@ function AddTask() {
                 >
                   Upload Image
                 </h3>
-                <input
-                  type="image"
-                  name="title"
-                  className={universal.text_field}
-                />
+                <div id={styles.image_upload}>
+                  <span
+                    className={`${"material-symbols-outlined"} ${styles.upload_image}`}
+                  >
+                    image_arrow_up
+                  </span>
+                  <p className={universal.body2}>Drag & Drop files here</p>
+                  <p className={universal.body2}>or</p>
+                  <button>Browse</button>
+                </div>
               </label>
             </div>
           </form>

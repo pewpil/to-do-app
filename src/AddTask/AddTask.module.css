@@ -82,10 +82,28 @@
 
 #image {
 	flex: 1 1;
+	padding: 0 0 0 1rem;
+	display: flex;
+	flex-direction: column;
 }
 
 #form {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+}
+
+#image_upload {
+	border: 1px solid black;
+	flex: 1 1;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.upload_image {
+	font-size: 10rem;
+	display: block;
 }
