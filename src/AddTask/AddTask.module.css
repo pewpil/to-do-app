@@ -119,6 +119,35 @@
 }
 
 .upload_image {
-	font-size: 10rem;
-	display: block;
+	font-size: 6rem;
+	color: #ced1d8;
+}
+
+#upload_image_container {
+	flex: 5 5;
+	display: flex;
+	align-items: center;
+}
+
+.dragdrop {
+	flex: 1 1;
+	color: #cecece;
+}
+
+.browse_button {
+	background-color: #ffffff;
+	border: 3px #ced1d8 solid;
+	padding: 0.75rem;
+	border-radius: 1rem;
+	color: #ced1d8;
+}
+
+#browse_button_container {
+	flex: 2 2;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
 }

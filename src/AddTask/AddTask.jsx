@@ -92,14 +92,22 @@ function AddTask() {
                   Upload Image
                 </h3>
                 <div id={styles.image_upload}>
-                  <span
-                    className={`${"material-symbols-outlined"} ${styles.upload_image}`}
-                  >
-                    image_arrow_up
-                  </span>
-                  <p className={universal.body2}>Drag & Drop files here</p>
-                  <p className={universal.body2}>or</p>
-                  <button>Browse</button>
+                  <div id={styles.upload_image_container}>
+                    <span
+                      className={`${"material-symbols-outlined"} ${styles.upload_image}`}
+                    >
+                      image_arrow_up
+                    </span>
+                  </div>
+                  <p className={`${universal.body2} ${styles.dragdrop}`}>
+                    Drag & Drop files here
+                  </p>
+                  <p className={`${universal.body2} ${styles.dragdrop}`}>or</p>
+                  <div id={styles.browse_button_container}>
+                    <button className={`${styles.browse_button}`}>
+                      Browse
+                    </button>
+                  </div>
                 </div>
               </label>
             </div>
