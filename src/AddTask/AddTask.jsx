@@ -2,7 +2,7 @@
 import styles from "./AddTask.module.css";
 import universal from "../Universal.module.css";
 
-function AddTask() {
+function AddTask(prop) {
   return (
     <div id={styles.screen_cover}>
       <div id={styles.add_task}>
@@ -10,7 +10,7 @@ function AddTask() {
           <h2 className={universal.title3} id={styles.title}>
             Add New Task
           </h2>
-          <h3 className={universal.title3} id={styles.go_back}>
+          <h3 onClick={prop.go_back}className={universal.title3} id={styles.go_back}>
             <u>Go Back</u>
           </h3>
         </div>

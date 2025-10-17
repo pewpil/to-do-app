@@ -47,7 +47,11 @@ class App extends React.Component {
 					notification_click={this.toggleShowNotifications}
 				></TopBar>
 				{this.state.showNotifications ? <Notifications></Notifications> : <></>}
-				{this.state.showAddTask ? <AddTask></AddTask> : <></>}
+				{this.state.showAddTask ? (
+					<AddTask go_back={this.toggleShowAddTask}></AddTask>
+				) : (
+					<></>
+				)}
 				<BrowserRouter>
 					<SideBar></SideBar>
 					<Routes>
