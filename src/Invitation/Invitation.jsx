@@ -23,7 +23,11 @@ function Invitations() {
 					<div id={styles.search_email}>
 						<form action="">
 							<label for="">
-								<p className={`${styles.body1} ${universal.body1}`}>Email</p>
+								<p
+									className={`${universal.body1} ${styles.body_section_title}`}
+								>
+									Email
+								</p>
 								<input type="email" name="email" />
 								<button className={`${universal.button_long}`}>
 									Send Invite
@@ -32,8 +36,11 @@ function Invitations() {
 						</form>
 					</div>
 					<div id={styles.members}>
-						<p className={`${styles.body1} ${universal.body1}`}>Members</p>
+						<p className={`${universal.body1} ${styles.body_section_title}`}>
+							Members
+						</p>
 						<div id={styles.members_container}>
+							<Member></Member>
 							<Member></Member>
 							<Member></Member>
 							<Member></Member>
@@ -43,7 +50,9 @@ function Invitations() {
 					<div id={styles.project_link}>
 						<form>
 							<label for="">
-								<p className={`${styles.body1} ${universal.body1}`}>
+								<p
+									className={`${universal.body1} ${styles.body_section_title}`}
+								>
 									Project Link
 								</p>
 								<input type="email" name="email" />
