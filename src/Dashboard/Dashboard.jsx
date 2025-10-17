@@ -5,11 +5,12 @@ import Status from "./Status/Status.jsx";
 import styles from "./Dashboard.module.css";
 import universal from "../Universal.module.css";
 
-function Dashboard() {
+function Dashboard(props) {
 	const els = [
 		[...Array(3).keys()].map(() => <Task></Task>),
 		[...Array(2).keys()].map(() => <Task></Task>),
 	];
+
 	return (
 		<div id={styles.dashboard}>
 			<div id={styles.welcome_and_colab}>
@@ -40,6 +41,7 @@ function Dashboard() {
 							Add task
 						</>
 					}
+					action_click={props.add_task}
 					date="20 June"
 					day="Today"
 					subsections={els}

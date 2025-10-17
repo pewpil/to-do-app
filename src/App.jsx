@@ -12,7 +12,7 @@ import Account from "./Account/Account";
 import Signup from "./Signup/Signup";
 import Notifications from "./Notifications/Notifications";
 import AddTask from "./AddTask/AddTask";
-import { useState } from "react";
+import React from "react";
 
 // function App() {
 // 	return (
@@ -20,31 +20,56 @@ import { useState } from "react";
 // 	);
 // }
 
-function App() {
-	const [displayNotification, setDisplayNotification] = useState(false);
-	function toggleDisplayNotification() {
-		setDisplayNotification(!displayNotification);
+class App extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			showNotifications: false,
+			showAddTask: false,
+		};
 	}
-	return (
-		<div id={styles.app}>
-			<TopBar title="Dashboard" date="10/12/2002" day="Monday" notification_click={toggleDisplayNotification}></TopBar>
-			{displayNotification ? <Notifications></Notifications> : <></>}
-			<BrowserRouter>
-				<SideBar></SideBar>
-				<Routes>
-					<Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
-					<Route path="/vital-task" element={<VitalTask></VitalTask>}></Route>
-					<Route path="/my-task" element={<MyTask></MyTask>}></Route>
-					<Route
-						path="/task-categories"
-						element={<TaskCategories></TaskCategories>}
-					></Route>
-					<Route path="/login" element={<Login></Login>}></Route>
-					<Route path="/account" element={<Account></Account>}></Route>
-				</Routes>
-			</BrowserRouter>
-		</div>
-	);
+
+	toggleShowNotifications = () => {
+		this.setState({ showNotifications: !this.state.showNotifications });
+	};
+
+	toggleShowAddTask = () => {
+		this.setState({ showAddTask: !this.state.showAddTask });
+	};
+
+	render() {
+		return (
+			<div id={styles.app}>
+				<TopBar
+					title="Dashboard"
+					date="10/12/2002"
+					day="Monday"
+					notification_click={this.toggleShowNotifications}
+				></TopBar>
+				{this.state.showNotifications ? <Notifications></Notifications> : <></>}
+				{this.state.showAddTask ? <AddTask></AddTask> : <></>}
+				<BrowserRouter>
+					<SideBar></SideBar>
+					<Routes>
+						<Route
+							path="/dashboard"
+							element={
+								<Dashboard add_task={this.toggleShowAddTask}></Dashboard>
+							}
+						></Route>
+						<Route path="/vital-task" element={<VitalTask></VitalTask>}></Route>
+						<Route path="/my-task" element={<MyTask></MyTask>}></Route>
+						<Route
+							path="/task-categories"
+							element={<TaskCategories></TaskCategories>}
+						></Route>
+						<Route path="/login" element={<Login></Login>}></Route>
+						<Route path="/account" element={<Account></Account>}></Route>
+					</Routes>
+				</BrowserRouter>
+			</div>
+		);
+	}
 }
 
 export default App;

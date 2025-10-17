@@ -24,7 +24,7 @@ function Section(props) {
 				<h3 className={universal.title3} id={styles.title}>
 					{props.title}
 				</h3>
-				<button type="button" id={styles.action}>
+				<button onClick={props.action_click} id={styles.action}>
 					<h3 className={universal.title3}>{props.action}</h3>
 				</button>
 			</div>
@@ -37,9 +37,7 @@ function Section(props) {
 			) : (
 				<></>
 			)}
-			<div id={styles.contents}>
-		{contents}
-			</div>
+			<div id={styles.contents}>{contents}</div>
 		</div>
 	);
 }

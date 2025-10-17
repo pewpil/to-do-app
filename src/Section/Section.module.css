@@ -24,7 +24,6 @@
 	flex: 1 1;
 	background-color: #f5f8ff;
 	text-align: left;
-	z-index: -1;
 }
 
 #action:hover {
