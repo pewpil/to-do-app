@@ -1,0 +1,44 @@
+#screen_cover {
+	z-index: 9999;
+	grid-column: 1 / 20;
+	grid-row: 1 / 20;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#invitations {
+	background-color: #ffffff;
+	width: 50%;
+	aspect-ratio: 14 / 11;
+	border-radius: 0.5rem;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#header {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+#title {
+	flex: 1 1;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+#body {
+	flex: 1 1;
+	border: 1px solid black;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#members {
+	flex: 1 1;
+}

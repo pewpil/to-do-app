@@ -13,6 +13,7 @@ import Signup from "./Signup/Signup";
 import Notifications from "./Notifications/Notifications";
 import AddTask from "./AddTask/AddTask";
 import React from "react";
+import Invitations from "./Invitation/Invitation";
 
 // function App() {
 // 	return (
@@ -52,6 +53,7 @@ class App extends React.Component {
 				) : (
 					<></>
 				)}
+				<Invitations></Invitations>
 				<BrowserRouter>
 					<SideBar></SideBar>
 					<Routes>
