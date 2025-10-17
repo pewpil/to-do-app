@@ -1,4 +1,5 @@
 "use strict";
+import Member from "./Member/Member";
 import styles from "./Invitation.module.css";
 import universal from "../Universal.module.css";
 
@@ -32,11 +33,19 @@ function Invitations() {
 					</div>
 					<div id={styles.members}>
 						<p className={`${styles.body1} ${universal.body1}`}>Members</p>
+						<div id={styles.members_container}>
+							<Member></Member>
+							<Member></Member>
+							<Member></Member>
+							<Member></Member>
+						</div>
 					</div>
 					<div id={styles.project_link}>
 						<form>
 							<label for="">
-								<p className={`${styles.body1} ${universal.body1}`}>Project Link</p>
+								<p className={`${styles.body1} ${universal.body1}`}>
+									Project Link
+								</p>
 								<input type="email" name="email" />
 								<button className={`${universal.button_long}`}>
 									Copy Link

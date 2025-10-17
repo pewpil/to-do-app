@@ -1,0 +1,10 @@
+#member {
+	height: 25%;
+	border: 1px solid black;
+}
+
+#pfp {
+	height: 100%;
+	aspect-ratio: 1 / 1;
+}
+
