@@ -3,7 +3,7 @@ import Member from "./Member/Member";
 import styles from "./Invitation.module.css";
 import universal from "../Universal.module.css";
 
-function Invitations() {
+function Invitations(props) {
 	return (
 		<div id={styles.screen_cover}>
 			<div id={styles.invitations}>
@@ -13,7 +13,7 @@ function Invitations() {
 							Send an invite to a new member
 						</h3>
 					</div>
-					<div id={styles.close}>
+					<div onClick={props.go_back} id={styles.close}>
 						<h3 className={`${universal.title3}`}>
 							<u>Go Back</u>
 						</h3>

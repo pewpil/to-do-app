@@ -27,6 +27,7 @@ class App extends React.Component {
 		this.state = {
 			showNotifications: false,
 			showAddTask: false,
+			showInvitations: true,
 		};
 	}
 
@@ -37,6 +38,10 @@ class App extends React.Component {
 	toggleShowAddTask = () => {
 		this.setState({ showAddTask: !this.state.showAddTask });
 	};
+
+	toggleShowInvitations = () => {
+		this.setState({ showInvitations: !this.state.showInvitations });
+	}
 
 	render() {
 		return (
@@ -53,7 +58,11 @@ class App extends React.Component {
 				) : (
 					<></>
 				)}
-				<Invitations></Invitations>
+				{this.state.showInvitations ? (
+					<Invitations go_back={this.toggleShowInvitations}></Invitations>
+				) : (
+					<></>
+				)}
 				<BrowserRouter>
 					<SideBar></SideBar>
 					<Routes>
